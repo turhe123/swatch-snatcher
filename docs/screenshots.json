@@ -1,0 +1,5 @@
+[
+  {"file":"01-popover.png","caption":"The menu bar popover with recent colors, a WCAG contrast check that passes at 13.98:1, and two named palettes.","alt":"SwatchSnatcher popover with color history, contrast checker and palettes"},
+  {"file":"02-copy-formats.png","caption":"Right-click any swatch to copy it as HEX, RGB, HSL, SwiftUI or NSColor, pin it to a palette, or compare it for contrast.","alt":"Swatch context menu listing copy formats and compare options"},
+  {"file":"03-settings.png","caption":"Settings for the global pick hotkey, the default copy format, loupe behavior after picking, and launch at login.","alt":"SwatchSnatcher Settings window"}
+]

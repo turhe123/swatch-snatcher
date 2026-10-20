@@ -1,5 +1,7 @@
 # SwatchSnatcher
 
+**🌐 Website:** [turhe123.github.io/swatch-snatcher](https://turhe123.github.io/swatch-snatcher/)
+
 Pick any color on screen with a magnifier loupe, then copy it as HEX, RGB or SwiftUI code and keep a palette.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -28,7 +30,17 @@ SwatchSnatcher is a free, open-source, 100% native, backend-free alternative to 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-popover.png" alt="SwatchSnatcher popover with color history, contrast checker and palettes" width="720"></p>
+
+<p align="center"><em>The menu bar popover with recent colors, a WCAG contrast check that passes at 13.98:1, and two named palettes.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-copy-formats.png" alt="Swatch context menu listing copy formats and compare options" width="560"></p>
+
+<p align="center"><em>Right-click any swatch to copy it as HEX, RGB, HSL, SwiftUI or NSColor, pin it to a palette, or compare it for contrast.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-settings.png" alt="SwatchSnatcher Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the global pick hotkey, the default copy format, loupe behavior after picking, and launch at login.</em></p>
 
 ## Install
 

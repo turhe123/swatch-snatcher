@@ -1,0 +1,60 @@
+{
+  "seo_title": "Free color picker for macOS",
+  "seo_description": "SwatchSnatcher is a free, open-source menu bar color picker for macOS. Magnifier loupe, HEX, RGB, HSL and SwiftUI copy, palettes and a WCAG contrast checker.",
+  "hero_title_line1": "Pick any color.",
+  "hero_title_accent": "Copy it your way.",
+  "hero_sub": "A menu bar color picker with a magnifier loupe. Press Option-Command-C, click any pixel, and the color is on your clipboard as HEX, RGB, HSL or SwiftUI code.",
+  "features_title": "Pick, copy, keep.",
+  "features_sub": "The whole color workflow lives in one small menu bar popover, built only with Apple frameworks.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Magnifier loupe",
+      "desc": "A 150 pt circular loupe follows your pointer and shows a 9x9 grid of magnified pixels with the center pixel outlined and its HEX value below. It works across displays with different scale factors."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Five copy formats",
+      "desc": "Copy as HEX, RGB, HSL, a SwiftUI Color initializer or an NSColor initializer. Set a default, or right-click any swatch to copy it in another format."
+    },
+    {
+      "icon": "folder",
+      "title": "History and named palettes",
+      "desc": "The last 50 colors are kept, with duplicates moved to the front. Pin colors into named palettes and export a palette as a plain text list."
+    },
+    {
+      "icon": "sliders",
+      "title": "WCAG contrast checker",
+      "desc": "Compare any two swatches to see their contrast ratio, with Pass or Fail for body text (4.5:1) and large text (3:1)."
+    },
+    {
+      "icon": "keyboard",
+      "title": "Global hotkey",
+      "desc": "Start picking from any app with Option-Command-C, or record your own shortcut in Settings. Press Esc or right-click to cancel."
+    },
+    {
+      "icon": "display",
+      "title": "Consistent sRGB output",
+      "desc": "Wide-gamut Display P3 captures are converted to sRGB, and the popover shows the color space of the display you sampled."
+    }
+  ],
+  "permissions_step": "When prompted, grant Screen Recording to SwatchSnatcher in System Settings > Privacy & Security > Screen & System Audio Recording, then relaunch the app.",
+  "faq": [
+    {
+      "q": "Is SwatchSnatcher really free and open source?",
+      "a": "Yes. It is released under the MIT license, with the full source on GitHub. It has no ads, no analytics and no third-party dependencies, and an optional donation button is the only ask."
+    },
+    {
+      "q": "Which permissions does it need?",
+      "a": "Screen Recording, so the loupe can read the pixels under your pointer. Without it the app explains why and links to Privacy Settings instead of returning black. Launch at login is optional, and it never asks for Accessibility, camera, microphone or network access."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Only on your Mac. History and palettes are saved as JSON at ~/Library/Application Support/SwatchSnatcher/library.json. Nothing is sent over the network."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode and XcodeGen."
+    }
+  ]
+}
